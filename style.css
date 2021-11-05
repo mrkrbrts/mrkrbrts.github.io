@@ -88,9 +88,38 @@ select {
 
 /* 02: Fonts */
 html {
-    font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 50px;
+  font-size: 50px;
+  color: red;
+}
+
+
+header {
+  background-color: #001957;
+  color:white
+}
+
+nav {
+  background-color: darkslategrey;
+  padding: 15px 0px;
+}
+
+nav a{
+  color: whitesmoke;
+  text-decoration: none;
+  padding-bottom: 5px;
+  margin: 20px;
+}
+
+nav a:hover{
+  cursor: pointer;
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
+
+nav > .active {
+  font-weight: bolder;
 }
