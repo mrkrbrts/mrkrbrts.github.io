@@ -154,3 +154,7 @@ nav > .active {
   background-color: #001957;
   padding-bottom: 5px;
 }
+
+.main-container {
+  margin:0px 50px; 
+}
