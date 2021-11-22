@@ -95,16 +95,23 @@ html {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 58px;
+  text-align: center;
 }
 
 header {
-  color:white
+  color:white;
+  background-color: #001957fa;
+  padding: 5px 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
 }
 
 a:hover,a:focus{
   cursor: pointer;
-  color: yellow;
+  color: #D4A12A;
 }
 
 nav {
@@ -119,19 +126,36 @@ nav a{
 }
 
 nav a:hover,a:focus{
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid #D4A12A;
+  font-weight: bold;
+}
+
+body {
+  margin-top: 100px;
 }
 
 /* ---------------------- */
 /* 03: Classes */
 /* ---------------------- */
 
+.brand {
+  font-family: "Sansita", sans-serif;
+  color: #D4A12A;
+  font-size: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
 nav > .active {
   font-weight: bolder;
+  border-bottom: 1px solid white;
 }
 
 .nav-bar {
-  background-color: rgba(0,25,87,0.98);
+  display: inline-block;
 }
 
 .button {
@@ -151,6 +175,14 @@ nav > .active {
 }
 
 .title {
-  background-color: #001957;
   padding-bottom: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+hr.small {
+  max-width: 6.25rem;
+  border-color: #001957;
+  border-radius: 0.1875rem;
+  margin-bottom: 10px;
 }
