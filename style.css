@@ -97,6 +97,15 @@ html {
 h1 {
   font-size: 58px;
   text-align: center;
+  color: #001957;
+  font-weight: bolder;
+}
+
+h2 {
+  color:#001957;
+  font-size: 36px;
+  margin-bottom: 12px;
+  font-weight: bold;
 }
 
 header {
@@ -191,7 +200,7 @@ nav > .active {
 
 hr.small {
   max-width: 6.25rem;
-  border-color: #001957;
+  border-color: #D4A12A;
   border-radius: 0.1875rem;
   margin: 15px auto;
 }
