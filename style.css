@@ -134,6 +134,10 @@ body {
   margin-top: 100px;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 /* ---------------------- */
 /* 03: Classes */
 /* ---------------------- */
@@ -144,8 +148,13 @@ body {
   font-size: 40px;
 }
 
+.brand,.brand:focus,.brand:active,.brand:visited,.brand:link  {
+  text-decoration: none;
+  cursor: default;
+}
+
 .content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -184,5 +193,5 @@ hr.small {
   max-width: 6.25rem;
   border-color: #001957;
   border-radius: 0.1875rem;
-  margin-bottom: 10px;
+  margin: 15px auto;
 }
