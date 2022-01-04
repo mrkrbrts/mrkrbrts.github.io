@@ -94,6 +94,10 @@ html {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+img {
+  width:100%;
+}
+
 h1 {
   font-size: 58px;
   text-align: center;
@@ -199,8 +203,29 @@ nav > .active {
 }
 
 hr.small {
-  max-width: 6.25rem;
+  max-width: 10.25rem;
   border-color: #D4A12A;
   border-radius: 0.1875rem;
   margin: 15px auto;
+}
+
+.columns {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+  align-items: stretch;
+}
+
+
+.width25 {
+  max-width: 25%;
+}
+
+.width75{
+  max-width: 70%;
+}
+
+.width50 {
+  max-width: 45%
 }
