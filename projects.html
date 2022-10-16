@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Projects: MrkRbrts</title>
-        <link rel="shortcut icon" type="image/png" href="images/MrkRbrts favicon-32x32.png"/>
-        <link href="styles/style.css" rel="stylesheet">
+        
+        <!-- Titles and Favicons -->
+        <title>MrkRbrts - Home</title>
+        <link rel="shortcut icon" type="image/png" href="images/Logos/MrkRbrts Square Logo.png"/>
+
+        <!-- Styles and Fonts -->
+        <link href="styles/stylenew.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
 
     </head>
+
     <body>
-        <header class="header">
-            <div class="container container-nav">
-                <div class="site-title">
-                    <img src="images/Logos/MrkRbrts Logo.png" alt="Mark Roberts logo" class="logo">
+        <header>
+            <div class="container header">
+                <div class="titles">
+                    <h1 class="site-title">MrkRbrts</h1>
+                    <p class="site-subtitle">Coding portfolio</p>
                 </div>
-                <nav class="nav-bar">
+                <nav>
                     <ul class="nav-list">
-                        <li class="nav-item"><a  href="index.html">Home</a></li>
-                        <li class="nav-item"><a href="projects.html" class="current-page">Projects</a></li>
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="current-page" href="#">All projects</a></li>
+                        <li class="nav-item"><a href="https://github.com/mrkrbrts" target="_blank">GitHub</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
         <div class="container">
-            <h1>Projects</h1>
+            <h1>All Projects</h1>
             <hr class="small">
             <h2>Blackjack</h2>
             <div class="columns">
@@ -74,6 +81,48 @@
                 </div>
                 <div class="col width25"></div>
             </div>
+        </div>
+
+
+
+        <div class="container columns">
+            <main class="main col">                
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">Snake</h2>
+                        <p class="article-body"><strong>You can't beat the classics.</strong> Snake was one of the first games I coded from scratch. It is entirely made using HTML, CSS and JavaScript.</p>
+                        <p class="article-body">Give it a try - it gets pretty challenging the higher the score...</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/Snake/" target="_blank">Play Snake</a></p>
+                    </div>
+                    <div class="article-decoration width50"> 
+                        <img src="images/Nokia.jpg" alt="An old Nokia mobile phone. " class="article-img">
+                    </div>
+                </article>
+                
+                
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">My First RPG</h2>
+                        <p class="article-body"><strong>This simple RPG was my first dive into Constructors in JavaScript.</strong> I found it difficult to wrap my head around the concept at first, but with more practice it started to come together.</p>
+                        <p>The game is pretty short, but I'm proud of the progress I made writing it.</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/my-first-rpg/" target="_blank">Play My First RPG</a></p>
+                    </div>
+                    <div class="article-decoration width50">
+                        <img src="images/my first rpg thumbnail.jpg" alt="A wizard fighting an orc. " class="article-img">
+                    </div>                    
+                </article>
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">BBQ Mailing List</h2>
+                        <p class="article-body">A simple form to sign up to a fictional mailing list.</p>
+                        <p>The main point of this site was to practice CSS, which to this day is one of my weakest areas as a developer. If you asked me to replicate this site from scratch, I'd struggle - but practice makes perfect!</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/BBQ/" target="_blank">View BBQ Mailing List</a></p>
+                    </div>
+                    <div class="article-decoration width50">    
+                        <img src="images/bbq thumbnail.jpg" alt="A vegetable kebab on a barbeque. " class="article-img">
+                    </div>
+                </article>
+            </main>
         </div>
 
         <!-- <footer>
