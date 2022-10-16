@@ -1,0 +1,312 @@
+/* =================
+Global
+================= */
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #707070;
+    font-family: 'Open sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =================
+Typography
+================= */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #143774;
+    margin-top: 0px;
+}
+
+h1{  
+    font-size: 3.375rem;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.site-subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1792D2;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.article-info {
+    color: #707070;
+    font-size: 0.875rem;
+    margin: 1.5em 0;
+}
+
+.sidebar-title {
+    font-size: 1rem
+}
+
+
+/* =================
+Links & Interactivitiy
+================= */
+
+a {
+    color: #1792D2
+}
+
+a:hover,
+a:focus {
+    color: #143774
+}
+
+.article-continue {
+    color: #1792D2;
+    font-size: 0.875rem;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.article-continue:hover,
+.article-continue:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+
+
+
+/* =================
+Header & Navigation
+================= */
+
+header {
+    background-color: #f8f8f8;
+    margin:0px;
+    padding: 2em 0;
+}
+
+/* Navigation */
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #707070;
+    margin:0px;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    padding: 0 0 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color:#1792D2;
+    border-bottom: 3px solid #1792D2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+    text-transform: uppercase;
+}
+
+
+
+/* =================
+Layout & Structure
+================= */
+
+article {
+    border-bottom: 2px solid #707070;
+    padding: 1em 0
+}
+
+.article-content {
+    order: 2;
+}
+
+.article-decoration {
+    order: 1;
+}
+
+.sidebar-title {
+    order: 2
+}
+
+.sidebar-img {
+    order: 1;
+}
+
+.test-div {
+    background-color: green;
+    height: 90px;
+    width: 90px;
+    border: 5px solid hotpink;
+}
+
+.container {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    /* border: .5px solid magenta; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columns {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.col {
+    /* border: .1px solid blue; */
+    padding: 0.25rem 0.75rem;
+}
+
+.width50 {
+    width: 45%;
+}
+
+.width25 {
+    width: 20%;
+}
+
+.width30{
+    width:30%
+}
+
+.width66 {
+    width:66%
+}
+
+.width70 {
+    width: 70%;
+}
+
+.sidebar {
+    background-color: #F8F8F8;
+    color: #143774;
+    border: 20px solid #EBEBEB;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height:3em;
+    text-align: center;
+    background-color: #001957;
+    color:#D4A12A;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 1000;
+    border-radius: 10px;
+}
+.button:hover,
+.button:focus {
+    background-color: #D4A12A;
+    color: #001957
+}
+
+.thumbnail {
+    max-width: 350px;
+    margin: auto;
+}
+
+
+/* =================
+Media Queries
+================= */
+
+@media (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0 1em;
+    }
+
+    header {
+        padding-bottom: 1em
+    }
+}
+
+@media (max-width: 675px) {
+
+    .columns {
+        flex-direction: column;
+    }
+    .col {
+        width:95%;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.5em
+    }
+    
+    header {
+        padding-bottom: 0px;
+    }
+
+}
+
+
+
+

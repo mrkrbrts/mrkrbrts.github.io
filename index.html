@@ -3,11 +3,11 @@
     <head>
         
         <!-- Titles and Favicons -->
-        <title>MrkRbrts: A Mark Roberts Production</title>
+        <title>MrkRbrts - Home</title>
         <link rel="shortcut icon" type="image/png" href="images/Logos/MrkRbrts Square Logo.png"/>
 
         <!-- Styles and Fonts -->
-        <link href="styles/style.css" rel="stylesheet">
+        <link href="styles/stylenew.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -16,53 +16,84 @@
     </head>
 
     <body>
-        <div class="wrapper">
-            <header class="header">
-                <div class="container container-nav">
-                    <div class="site-title">
-                        <img src="images/Logos/MrkRbrts Logo.png" alt="Mark Roberts logo" class="logo">
-                    </div>
-                    <nav class="nav-bar">
-                        <ul class="nav-list">
-                            <li class="nav-item"><a class="current-page" href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="projects.html">Projects</a></li>
-                        </ul>
-                    </nav>
+        <header>
+            <div class="container header">
+                <div class="titles">
+                    <h1 class="site-title">MrkRbrts</h1>
+                    <p class="site-subtitle">Coding portfolio</p>
                 </div>
-            </header>
-    
-            <div class="container">
-                <h1>My Coding Journey</h1>
-                <hr class="small">
-                
-                <p>I've been learning how to code for about a year now. The languages I'm learning right now are CSS, HTML and JavaScript. Coding has been one of the most rewarding journeys I've been on, but it has been challenging (and even a bit frustrating) at times!</p>
-                
-                <div class="bar">
-                    <p>When I was a kid, writing was my greatest passion - <span class="emphasis">my first love!</span></p> 
-                </div>
-                
-                <p>My love for writing took many forms. One of my earliest works was a multi-media adaptation of <a href="https://en.wikipedia.org/wiki/Age_of_Mythology" target="_blank">Age of Mythology</a> - a critically acclaimed video game at the time, but mostly forgotten when compared to its more popular cousin, and staple of the Real Time Strategy genre: Age of Empires.</p>
-                <p>There are doubtlessly hundreds of thousands of words scattered across notepads, hard drives and blogs - verse and prose to profess my love, frustration, despair, and a lifelong fued with Mrs Woolfe in the style of a school hall panto - all lost to the passage of time.</p>
-                <p>I went to study Creative Writing at Liverpool John Moores University - the first of my family to reach Higher Education, but my dad would have preferred that I studied a "proper subject". I lived a bohemian lifestyle with my best friends, and made some dodgy decisions. They were some of the best years of my life, and I wouldn't change a thing!</p>
-
-                <div class="bar">
-                    <p>But <span class="emphasis">I fell out of love with writing</span> in the process.</p>
-                </div>
-                
-                <p>I still don't know what changed once I finished the course.</p>
-                <p>Creative Writing is still part of my life, and probably will be until the day I die. I still enjoy critically thinking about other people's works, but at the moment I have the infamous Writer's Block - and for years I haven't been able to find a way around it.</p>
-
-                <div class="bar">
-                    <p><span class="emphasis">To be continued....</span></p>
-                </div>
-                
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="current-page" href="#">Home</a></li>
+                        <li class="nav-item"><a href="projects.html">All projects</a></li>
+                        <li class="nav-item"><a href="https://github.com/mrkrbrts" target="_blank">GitHub</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
+
+        <div class="container columns">
+            <main class="main col width70">
+                
+                <article class="article-featured">
+                    <img src="images/coding banner.jpg" alt="A man writing code on his computer. " class="article-img">
+
+                    <p class="article-body"><strong>My passion stems from gaming</strong>, but I've made sure to broaden my scope to learn about repsonsive websites and accessibility.</p>
+                    <p>I'm always trying to iterate and improve on my projects - how else will I learn? Take a look at my projects.</p>
+                    <p><a class="article-continue button" href="projects.html">View all projects</a></p>
+                </article>
+                
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">Snake</h2>
+                        <p class="article-body"><strong>You can't beat the classics.</strong> Snake was one of the first games I coded from scratch. It is entirely made using HTML, CSS and JavaScript.</p>
+                        <p class="article-body">Give it a try - it gets pretty challenging the higher the score...</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/Snake/" target="_blank">Play Snake</a></p>
+                    </div>
+                    <div class="article-decoration width50"> 
+                        <img src="images/Nokia.jpg" alt="An old Nokia mobile phone. " class="article-img">
+                    </div>
+                </article>
+                
+                
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">My First RPG</h2>
+                        <p class="article-body"><strong>This simple RPG was my first dive into Constructors in JavaScript.</strong> I found it difficult to wrap my head around the concept at first, but with more practice it started to come together.</p>
+                        <p>The game is pretty short, but I'm proud of the progress I made writing it.</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/my-first-rpg/" target="_blank">Play My First RPG</a></p>
+                    </div>
+                    <div class="article-decoration width50">
+                        <img src="images/my first rpg thumbnail.jpg" alt="A wizard fighting an orc. " class="article-img">
+                    </div>                    
+                </article>
+                <article class="article-recent columns">
+                    <div class="article-content col width50">
+                        <h2 class="article-title">BBQ Mailing List</h2>
+                        <p class="article-body">A simple form to sign up to a fictional mailing list.</p>
+                        <p>The main point of this site was to practice CSS, which to this day is one of my weakest areas as a developer. If you asked me to replicate this site from scratch, I'd struggle - but practice makes perfect!</p>
+                        <p><a class="article-continue button" href="https://mrkrbrts.github.io/BBQ/" target="_blank">View BBQ Mailing List</a></p>
+                    </div>
+                    <div class="article-decoration width50">    
+                        <img src="images/bbq thumbnail.jpg" alt="A vegetable kebab on a barbeque. " class="article-img">
+                    </div>
+                </article>
+            </main>
+            
+
+            <aside class="container col width30">
+                <div class="sidebar sidebar-about">
+                    <h2>About me</h2>
+                    <p>Self-taught developer from Manchester, UK.</p>
+                    <p>My coding journey started while trying to fix someone else's messy website. I instantly fell in love, and it allows me to explore my passion for writing and gaming logic.</p>
+                </div>
+            </aside>
         </div>
 
-        <!-- <footer>
-            <p>Website by... well, me!</p>
-        </footer> -->
+        <footer>
 
+        </footer>
+        
         <meta name="viewport" content="width=device-width" />
 
     </body>
